@@ -1,0 +1,133 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6893199000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is opening browser",
+            "match": {
+              "location": "LoginSteps.user_is_lounching_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "1 user should be able to login with the valid credentials",
+        "description": "",
+        "id": "validate-techfios-login-functionality;1-user-should-be-able-to-login-with-the-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 324826200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 397616200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc123",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 980110500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click signin button",
+            "match": {
+              "location": "LoginSteps.user_click_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user will land on dashboard page",
+            "match": {
+              "location": "LoginSteps.user_will_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "browser will closed automatically",
+            "match": {
+              "location": "LoginSteps.browser_will_closed_automatically()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@positiveTest"
+          },
+          {
+            "line": 1,
+            "name": "@loginPage"
+          }
+        ]
+      }
+    ],
+    "name": "validate Techfios login functionality",
+    "description": "",
+    "id": "validate-techfios-login-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/lenovo/Desktop/git_hub/BDD-frame-work/src/test/java/features/TF_login_ScenarioOutline.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@loginPage"
+      }
+    ]
+  }
+]

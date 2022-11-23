@@ -1,0 +1,3 @@
+all_pages\Login_page_elements.class
+all_pages\New_account_elements.class
+util\BrowserFactory.class
